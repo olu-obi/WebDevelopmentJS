@@ -1,0 +1,19 @@
+{
+    "results":
+    [
+      {
+      "id": 1,
+      "home": "React Rangers",  
+      "away": "Angular Athletic",
+      "homeScore": 2,
+      "awayScore": 0
+      },
+      {
+       "id": 1,
+       "home": "Ember Town",
+      "away": "React Rangers",  
+      "homeScore": 2,
+      "awayScore": 0
+      }
+    ]
+}

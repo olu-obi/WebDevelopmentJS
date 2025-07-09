@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>QuickLab 13 - JavaScript and Forms - Validation</title>
+</head>
+
+<body>
+    <form name = "submission" id="submission">
+        <table border = "0"> 
+            <tr>
+                <td>First Name*:</td>
+                <td> <input name = "fn" id ="fn" type = "text" autofocus required/></td> 
+            </tr>
+            <tr>
+                <td>Surname*:</td>
+                <td><input name = "sn" id ="sn" type = "text" required></td> 
+            </tr>
+            <tr>
+                <td>Email*:</td>
+                <td><input name = "email" id ="email" type = "email" required></td> 
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input name = "gender" id ="male" type = "radio" value="M"/> Male <input name = "gender" id ="female" type = "radio" value="F" /> Female</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type = "submit"></td>
+            </tr>
+      </table>  
+    </form>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
